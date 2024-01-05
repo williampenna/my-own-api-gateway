@@ -1,4 +1,4 @@
-package kong
+package apiGateway
 
 type Service struct {
 	Name    string   `yaml:"name"`

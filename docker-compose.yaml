@@ -14,3 +14,6 @@ services:
       - ./shippings.json:/db.json
     ports:
       - 3002:3002
+
+build:
+  context: services/configuration
